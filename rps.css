@@ -1,0 +1,142 @@
+body {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 20px;
+    background-color: #0483a3;
+}
+
+#btn{
+    display: flex;
+    position: relative;
+    left: 10px;
+    font-size: 20px;
+    background-color: whitesmoke;
+    font-family: fantasy;
+    color: black;
+}
+
+#btn:hover{
+    background-color: #FFB703;
+    cursor: pointer;
+}
+
+.choice {
+    height: 150px;
+    width: 150px;
+    border: 10px solid black;
+    background-color: #6fd1ff;
+    border-radius: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.choices {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 70px;
+    color: #023047;
+    font-family: fantasy;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background-color: #FFB703;
+    color: aliceblue;
+}
+
+.choice:active {
+    background-color: #FB8500;
+}
+
+.counter {
+    position: relative;
+    top: 40px;
+    color: #023047;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+    font-size: 25px;
+}
+
+#display {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+h1 {
+    background-color: #023047;
+    font-family: fantasy;
+    color: #FB8500;
+    line-height: 60px;
+    animation: heading 3s ease-in-out 0s infinite alternate none;
+}
+
+#msg {
+    display: inline;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    top: 60px;
+    font-size: 35px;
+}
+
+#msg2 {
+    background-color: #023047;
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #FB8500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+}
+
+#myScore,#compScore,#count {
+    font-size: 30px;
+}
+
+#outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    top: 20px;
+}
+
+.score {
+    display: inline;
+    position: relative;
+    top: 50px;
+    font-size: 25px;
+}
+
+.scoreCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+}
+
+#You,
+#Computer {
+    background-color: #023047;
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #FB8500;
+}
+
+@keyframes heading {
+    from {
+        color: #FB8500;
+    }
+
+    to {
+        color: #FFB703;
+    }
+}
